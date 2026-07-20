@@ -1,152 +1,84 @@
-/* Grundeinstellungen */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Ist die Politik inklusiv? – Umfrage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-body {
-    font-family: 'Arial', sans-serif;
-    font-size: 18px;
-    line-height: 1.6;
-    color: #1a1a1a;
-    background-color: #ffffff;
-}
+    <header>
+        <div class="header-inner">
+        <nav aria-label="Sprachauswahl">
+            <a href="index.html" aria-current="page">Deutsch</a>
+            <a href="index-fr.html">Français</a>
+            <a href="index-it.html">Italiano</a>
+        </nav>
+        <h1>Ist die Politik inklusiv?</h1>
+        <p class="untertitel">Ihre Erfahrung zählt!</p>
+        </div>
+    </header>
+    
+    <main>
+        <section class="umfrage-button">
+    <a href="https://unibaslabss.eu.qualtrics.com/jfe/form/SV_eVTS7m2X1BOIshU" class="button" target="_blank" rel="noopener noreferrer">Jetzt an der Umfrage teilnehmen</a>
+</section>
 
-/* Header */
-header {
-    background-color: #003366;
-    color: #ffffff;
-    padding: 40px 20px;
-    text-align: left;
-}
+        <section>
+            <h2>Worum es geht</h2>
+            <p>Für meine Masterarbeit an der Universität Basel untersuche ich die Hürden, die Menschen mit Behinderungen in der Schweizer Politik erleben.</p>
+        </section>
 
-header h1 {
-    font-size: 2.2em;
-    margin-top: 20px;
-}
+        <section>
+            <h2>Wer kann mitmachen?</h2>
+            <ul>
+                <li>Beschreiben Sie sich selbst als Mensch mit einer Behinderung?</li>
+                <li>Sind Sie an Politik interessiert?</li>
+            </ul>
+            <p>Wenn Sie beide Fragen mit Ja beantworten, können Sie an der Umfrage mitmachen.</p>
+        </section>
 
-.untertitel {
-    font-size: 1.3em;
-    margin-top: 10px;
-}
+        <section>
+            <h2>Das Ziel</h2>
+            <p>Wir fassen alle anonymen Antworten in einem Bericht zusammen. Diesen Bericht schicken wir an die politischen Parteien. So erfahren Parteien, wie sie die politische Teilhabe von Menschen mit Behinderungen stärken können.</p>
+        </section>
 
-/* Sprachauswahl */
-nav {
-    margin-bottom: 10px;
-}
+        <section>
+            <h2>So funktioniert die Umfrage</h2>
+            <ul>
+                <li>Die Umfrage kann am Computer oder am Handy ausgefüllt werden.</li>
+                <li>Es braucht eine Verbindung zum Internet.</li>
+                <li>Es sind etwa 25 Fragen.</li>
+                <li>Die Umfrage dauert etwa 10 bis 20 Minuten.</li>
+                <li>Es gibt kein richtig oder falsch.</li>
+                <li>Ihre Antworten sind anonym. Das heisst: Niemand kann sehen, welche Antworten von Ihnen sind.</li>
+            </ul>
+        </section>
 
-nav a {
-    color: #ffffff;
-    text-decoration: underline;
-    margin: 0 10px;
-    font-size: 1em;
-}
+        <section class="umfrage-button">
+            <a href="https://unibaslabss.eu.qualtrics.com/jfe/form/SV_eVTS7m2X1BOIshU" class="button" target="_blank" rel="noopener noreferrer"> An der Umfrage teilnehmen</a>
+        </section>
 
-nav a[aria-current="page"] {
-    font-weight: bold;
-    text-decoration: none;
-}
+        <section>
+            <h2>Über mich</h2>
+            <img src="foto.jpg" alt="Foto von Mirjam Kottmann">
+            <p>Ich bin Mirjam Kottmann und studiere im Master an der Universität Basel. Diese Umfrage ist Teil meiner Masterarbeit. Die Arbeit wird unterstützt von Prof. Dr. Stefanie Bailer und Prof. Dr. Lea Portmann.</p>
+        </section>
 
-/* Hauptinhalt */
-main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px 20px;
-}
+        <section>
+            <h2>Kontakt</h2>
+            <p>Haben Sie Fragen? Schreiben Sie mir eine E-Mail: <a href="mailto:mirjam.kottmann@stud.unibas.ch">mirjam.kottmann@stud.unibas.ch</a></p>
+        </section>
 
-section {
-    margin-bottom: 50px;
-}
+    </main>
 
-h2 {
-    font-size: 1.5em;
-    color: #003366;
-    margin-bottom: 15px;
-    border-bottom: 2px solid #003366;
-    padding-bottom: 5px;
-}
+    <footer>
+        <div class="footer-inner">
+        <p>Mirjam Kottmann – Universität Basel</p>
+        </div>
+    </footer>
 
-p {
-    margin-bottom: 15px;
-}
-
-ul {
-    margin-left: 20px;
-    margin-bottom: 15px;
-}
-
-ul li {
-    margin-bottom: 8px;
-}
-
-/* Foto */
-img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    object-position: 30% 15%;
-    border-radius: 50%;
-    display: block;
-    margin-bottom: 20px;
-}
-
-/* Button */
-.button {
-    display: inline-block;
-    background-color: #003366;
-    color: #ffffff;
-    padding: 18px 35px;
-    text-decoration: none;
-    font-size: 1.2em;
-    font-weight: bold;
-    border-radius: 6px;
-    margin-top: 10px;
-}
-
-.button:hover {
-    background-color: #00509e;
-}
-
-.button:focus {
-    outline: 3px solid #ffcc00;
-    outline-offset: 3px;
-}
-
-/* Links */
-a {
-    color: #003366;
-}
-
-a:focus {
-    outline: 3px solid #ffcc00;
-    outline-offset: 2px;
-}
-
-/* Footer */
-footer {
-    background-color: #f0f0f0;
-    text-align: left;
-    padding: 20px;
-    font-size: 0.9em;
-    color: #555555;
-}
-
-/* Mobile */
-@media (max-width: 600px) {
-    header h1 {
-        font-size: 1.6em;
-    }
-
-    body {
-        font-size: 17px;
-    }
-}
-.umfrage-button {
-    text-align: left;
-}
-.header-inner,
-.footer-inner {
-    max-width: 800px;
-    margin: 0 auto;
-}
+</body>
+</html>
