@@ -145,3 +145,8 @@ footer {
 .umfrage-button {
     text-align: left;
 }
+.header-inner,
+.footer-inner {
+    max-width: 800px;
+    margin: 0 auto;
+}
